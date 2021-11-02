@@ -1,50 +1,60 @@
 body, html {
-	margin: 0 auto;
-	padding: 0;
-	background-color: black;
-	color:  white;
-	text-align: center;
-	font-size: 1.5em;
+     margin: 0 auto;
+     padding: 0;
+     background-color: black;
+     color: white;
+     text-align: center;
 }
-
-.done {
-	text-decoration: line-through;
+ .header1 {
+     font-size: 4em;
 }
-
-.container {
-	max-width: 20em;
-	margin: 0 auto;
+ .first {
+     font-size: 2em;
 }
-
-ul {
-	margin: 5px;
-	margin-top: 20px;
-	padding: 5px;
-	text-align: left;
-	list-style-type: none;
-	background-color: #0a0a0a;
-	border: 2px solid white;
-	max-height: 60vh;
-	max-width: 100%;
-	overflow-y: auto;
+ #userinput {
+     width: 20%;
+     padding: 10px;
 }
-ul > li {
-	border-bottom: 2px solid white;
-	padding-top: 5px;
-	padding-bottom: 5px;
+ #send {
+     background-color: white;
+     padding: 10px ;
+     border: none;
+     margin-left: 10px ;
+     font-weight: bold;
 }
-ul > li:last-child {
-	border-bottom: none;
+ .done {
+     text-decoration: line-through;
 }
-
-li {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+ .container {
+     max-width: 30em;
+     margin: 0 auto;
 }
-
-#emptyList {
-	font-size: 0.8rem;
-	text-align: center;
+ ul {
+     margin: 20px auto;
+     padding: 5px;
+     text-align: left;
+     list-style-type: none;
+     background-color: #0a0a0a;
+     border: 2px solid white;
+     max-height: 60vh;
+     max-width: 100%;
+     overflow-y: auto;
 }
-
+ ul > li {
+     border-bottom: 2px solid white;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+ ul > li:last-child {
+     border-bottom: none;
+}
+ li {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+ #emptyList {
+     font-size: 1.2rem;
+     text-align: center;
+}
+ 
